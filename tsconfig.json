@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "jsx": "react-native",
+    "lib": [
+      "es2017"
+    ],
+    "types": [
+      "react",
+      "jest"
+    ], /* Type declaration files to be included in compilation. */
+    "moduleResolution": "node",
+    "noUnusedParameters": true,
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ],
+      "@screen/*": [
+        "./src/screens/*"
+      ],
+      "@asset/*": [
+        "./src/assets/*"
+      ],
+      "@query/*": [
+        "./src/services/graphql/query/*"
+      ]
+    },
+  },
+  "exclude": [
+    "node_modules",
+    "./node_modules",
+    "./node_modules/*",
+    "./node_modules/@types/node/index.d.ts",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}

@@ -1,0 +1,7 @@
+<resources>
+	<string moduleConfig="true" name="CodePushDeploymentKey">4KegM1Lnc_ISfu_cMT726X4Qb9KUZTfFnpkJv</string>
+    <string name="app_name">Test RN</string>
+    <string name="facebook_app_id">551567108373147</string>
+    <string name="fb_login_protocol_scheme">fb551567108373147</string>
+    <string name="default_notification_channel_id">default_notification_channel_001</string>
+</resources>
